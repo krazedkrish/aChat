@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <!-- When selected, use green image -->
+    <item android:drawable="@android:drawable/presence_online"
+		android:state_selected="true" 
+		 />
+                <!-- When selected, use yellow-like image -->
+        <item android:drawable="@android:drawable/presence_away"
+		android:state_selected="true"  />
+                <!-- When selected, use red image -->
+        <item android:drawable="@android:drawable/presence_busy"
+		android:state_selected="true"  />
+                <!-- When not selected, use offline image -->
+	<item android:drawable="@android:drawable/presence_offline" />
+
+</selector>

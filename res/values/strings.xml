@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="hello">Hello World, AChatActivity!</string>
+	<string name="app_name">aChat</string>
+	<string name="aChatWelcome">Welcome 2 aChat fellows. "\u0915"</string>
+	<string name="signInaChat">Sign Inside aChat</string>
+	<string name="signUpaChat">I have not account yet !</string>
+	<string name="username">aChat Name</string>
+	<string name="password">aChat Password</string>
+	<string name="server">Server</string>
+	<string name="welcomeButton">sign in</string>
+	<string name="checkAutomaticSignIn">Remember Me</string>
+	<string name="sendButton">Send</string>
+	<string name="user_name_at_thetop">user name</string>
+	<string name="tChatHint">Plez be sure you entered sth...</string>
+	<string name="chatHint">Type a msg over here...</string>
+	<string name="welcome">aChatess Welcome</string>
+	<string name="selectStatus">Update my Status</string>
+
+	<string-array name="statusonprofile">
+		<item>online</item>
+		<item>away</item>
+		<item>busy</item>
+		<item>offline</item>
+	</string-array>
+
+	<string name="button2UpdateMyStatus">Update</string>
+	<string name="howRUDoing2Day">How Are You Doing Today ?</string>
+	<string name="userNameSummary">Mero aChat User Name...</string>
+	<string name="passwordSummary">Mero aChat password...</string>
+	<string name="serverSummary">Mero server ko IP address...</string>
+	<string name="loginPreferenceString">Login Preferences</string>
+	<string name="enterUserDetailsBelow">New user please enter details below...</string>
+	<string name="confirmPassword">Re-enter Password</string>
+	<string name="fullName">Name</string>
+	<string name="email">Email</string>
+	<string name="Submit">Submit</string>
+	<string name="submit">Submit</string>
+	<string name="passwordMismatch">Sorry Buddy, No Password Match</string>
+	<string name="hurrayNewUserCreated">New User creation succesfull </string>
+	<string name="loginSucessfulMsg">Login to server succesfull</string>
+	<string name="loginFailureMsg">Login to sever not succesfull...Please check your
+		setting</string>
+	<string name="logingInToaChat">please wait while logging In...</string>
+	<string name="online_offline_buddies_list">My Online and Offline Buddies</string>
+	<string name="about_aChat">About aChat !!</string>
+	<string name="deletemessage">Clear chat history!!</string>
+	<string name="aboutaChat">ABOUT ACHAT</string>
+	<string name="deleteMessageNotification">Chat history cleared</string>
+	<string name="messageDelete">Delete all message</string>
+	<string name="chatbuddylist">chatbuddylist</string>
+	<string name="chatstab">chatstab</string>
+	<string name="chatstabcontent">chatstabcontent</string>
+	<string name="chatListMenuString">Select message/Finger paint chat</string>
+	<string name="chatListMenuFPaint">Finger Paint</string>
+	<string name="chatListMenuMsg">Text Message</string>
+	<string name="fingerPaintSel">Finger Paint type message selected</string>
+	<string name="chatTypeSel">Chat typ message selected</string>
+	<string name="simpleMsg">Simple Message mode selected</string>
+	<string name="nepaliMsg">Nepali Message mode selected</string>
+
+	<string name="defaultValueofServer">192.168.56.1</string>
+</resources>

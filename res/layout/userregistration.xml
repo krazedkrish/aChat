@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/global" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:orientation="vertical">
+
+	<ScrollView android:id="@+id/scrollView1"
+		android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="30dp">
+
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:layout_width="match_parent" android:layout_height="match_parent"
+			android:weightSum="1" android:orientation="vertical">
+
+			<TextView style="@style/title" android:layout_width="match_parent"
+				android:text="@string/enterUserDetailsBelow" android:layout_height="85dp"
+				android:layout_weight="3.57" />
+
+			<TextView android:id="@+id/textView2" style="@style/textView"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:layout_gravity="left" android:text="@string/userNameSummary">
+			</TextView>
+
+			<EditText android:id="@+id/userreg_username" style="@style/editText"
+				android:layout_width="match_parent" android:layout_height="wrap_content">
+			</EditText>
+
+			<TextView android:id="@+id/TextView01" style="@style/textView"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:layout_gravity="left" android:text="@string/passwordSummary">
+			</TextView>
+
+			<EditText android:id="@+id/userreg_pass1" style="@style/editText"
+				android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+				<requestFocus>
+				</requestFocus>
+			</EditText>
+
+			<TextView android:id="@+id/TextView04" style="@style/textView"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:text="@string/confirmPassword">
+			</TextView>
+
+			<EditText android:id="@+id/userreg_pass2" style="@style/editText"
+				android:layout_width="match_parent" android:layout_height="wrap_content">
+			</EditText>
+
+			<TextView android:id="@+id/TextView02" style="@style/textView"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:layout_gravity="left" android:text="@string/fullName">
+			</TextView>
+
+			<EditText android:id="@+id/userreg_fullname" style="@style/editText"
+				android:layout_width="match_parent" android:layout_height="wrap_content">
+			</EditText>
+
+			<TextView android:id="@+id/TextView03" style="@style/textView"
+				android:layout_width="match_parent" android:layout_height="wrap_content"
+				android:layout_gravity="left" android:text="@string/email">
+			</TextView>
+			<EditText android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/editText"
+				android:layout_weight="3.57" android:id="@+id/userreg_email"></EditText>
+			<TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_weight="3.57"
+				style="@style/textView" android:text="Server"></TextView>
+			<EditText android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/editText"
+				android:layout_weight="3.57" android:id="@+id/userreg_server"></EditText>
+
+			<Button android:id="@+id/submitreg" android:layout_width="139dp"
+				android:layout_height="wrap_content" android:layout_gravity="bottom|center"
+				android:layout_marginTop="15dp" android:text="@string/submit">
+			</Button>
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/activity" android:orientation="vertical">
+	<TextView android:text="TextView" android:id="@+id/textView1"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:layout_weight="0.03"></TextView>
+
+	<TextView style="@style/title" android:layout_width="match_parent"
+		android:layout_height="0dp" android:layout_weight="0.21"
+		android:text="@string/aChatWelcome">
+	</TextView>
+
+	<TextView style="@style/textView" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/username" />
+
+	<EditText android:id="@+id/username" style="@style/editText"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:hint="@string/userNameSummary" android:text="user1" />
+
+	<requestFocus />
+
+	<TextView android:id="@+id/textView3" style="@style/textView"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/password" />
+
+	<EditText android:id="@+id/password" style="@style/editText"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:hint="@string/passwordSummary" android:password="true"
+		android:text="user1" />
+
+	<TextView style="@style/textView" android:layout_width="match_parent"
+		android:text="@string/server" />
+
+	<EditText android:id="@+id/editTextServer" style="@style/editText"
+		android:text="@string/defaultValueofServer" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:hint="@string/serverSummary" />
+
+
+	<Button android:id="@+id/singIn" style="@style/Button"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/welcomeButton" />
+	<TextView android:id="@+id/iDoNotHaveAaChatAccoutYet"
+		android:text="@string/signUpaChat" android:layout_width="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:clickable="true" android:gravity="right"
+		android:layout_height="wrap_content" android:layout_gravity="bottom|right"></TextView>
+
+
+	<CheckBox android:id="@+id/checkBoxRememberMe"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_gravity="right" android:text="@string/checkAutomaticSignIn" />
+
+</LinearLayout>

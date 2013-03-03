@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/deleteMessage" android:title="@string/deletemessage"
+		android:icon="@android:drawable/ic_menu_delete">
+	</item>
+	<group android:id="@+id/chatMsgType" android:checkableBehavior="all">
+		<item android:title="@string/simpleMsg" android:id="@+id/engMsgType"
+			android:icon="@drawable/english">
+			<menu></menu>
+		</item>
+		<item android:title="@string/nepaliMsg"
+			android:icon="@drawable/nepali" android:id="@+id/nepMsgType"></item>
+	</group>
+
+</menu>
