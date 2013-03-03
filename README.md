@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-aChat
-=====
-
-An android Chat application
-=======
 # aChat 
 
 ## Introduction
@@ -24,4 +18,3 @@ Like any other chat application :D
 
 ## Documentation
 The documentation can be found at docs/Documentation.docx
->>>>>>> crazyNeo
