@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:background="#9999" android:layout_margin="10dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textUsernameOnRowAdapter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="0dp"
+            android:paddingLeft="10dp"
+            android:text="Naren"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#c30"
+            android:textStyle="bold" android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/icon_roster_presence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_status_update"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_Status_On_RowAdapter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="0dp"
+        android:text="Do it like hover"
+        android:textAppearance="?android:attr/textAppearanceMedium" style="@style/rowText"/>
+
+</LinearLayout>

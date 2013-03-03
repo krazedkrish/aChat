@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:icon="@android:drawable/ic_menu_edit" android:id="@+id/fingerPaint"
+		android:title="@string/chatListMenuFPaint"></item>
+	<item android:id="@+id/message" android:icon="@android:drawable/stat_notify_chat"
+		android:title="@string/chatListMenuMsg"></item>
+
+</menu>
