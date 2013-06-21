@@ -2,7 +2,7 @@
 
 ## Introduction
 This is a chat application for android developed by
-* crazyNeo(shalil9130@gmail.com)
+* krazedkrish(krazedkrish@gmail.com)
 * zeroneNepal(milans.thapa78@gmail.com
 * Rabin Shrestha
 * Kishor Raj Adhikari(TichKuLe)
